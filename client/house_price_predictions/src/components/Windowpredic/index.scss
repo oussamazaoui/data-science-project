@@ -1,0 +1,59 @@
+.CONTAINER {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Adjust the container height as needed */
+    font-family: 'Coolvetica';
+    font-size: 30px;
+    color: yellow;
+    opacity: 0.7;
+  }
+  
+  /* Additional styles for the form elements */
+  form {
+    text-align: center; /* Center the form content horizontally */
+    /* Add any other form styling as needed */
+  }
+  
+  /* Optional: Adjust the label and input styles as needed */
+  label {
+    // display: block; /* Make labels stack on top of inputs */
+    margin-bottom: 10px; /* Add space between labels and inputs */
+  }
+  
+  input[type="text"] {
+    width: 80%; /* Make the text inputs fill the available width */
+    padding: 5px; /* Add padding to the text inputs */
+    /* Add any other input styles as needed */
+    opacity: 1;
+    margin-bottom: 10px;
+  }
+  .Locchoices{
+   width: 80%;
+   height: 100%;
+   padding: 4px;
+   
+  }
+  h2{
+    font-size: 30px;
+    font-family:Helvetica Neue ;
+    color: rgba(255, 255, 0, 0.839);
+    
+  }
+  .btn{
+    font-size: 22px;
+        color:white;
+        background-color: black;
+        cursor: pointer;
+        &:hover {
+          background-color: #ffd700;
+        }
+  }
+  
+  
+   
+   
+  
+  
+
+
